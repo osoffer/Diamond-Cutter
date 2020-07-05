@@ -16,11 +16,11 @@ Diamond Cutter is based on the following tools & research:
 <br><b>Lucid Framework</b> https://github.com/tensorflow/lucid
 <br><b>Feature Visualization</b> - How neural networks build up their understanding of images, https://distill.pub/2017/feature-visualization/
 <br><b>The Building Blocks of Interpretability</b> - https://distill.pub/2018/building-blocks/
+<br>
 <br><i>Related work, not included in this project:
 <br><b>Zoom In: An Introduction to Circuits</b> - https://distill.pub/2020/circuits/zoom-in/
 <br><b>Exploring Neural Networks with Activation Atlases</b> - https://distill.pub/2019/activation-atlas/ </i>
 
-<br>
 <br>
 <br>Diamond Cutter includes the following features:
 <br><b>Choosing the right model (& right layer) for Transfer Learning</b>
@@ -38,17 +38,17 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
-<br>&nbsp;&nbsp;&nbsp; \- Pick a layer of your transferred model
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern</b>
 <br><b>3. View a generated visualization of the top activated channels per area in image</b>
 View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
-<br>&nbsp;&nbsp;&nbsp; \- Pick a layer of your transferred model
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
 <br>
 <b>To do list:</b>
