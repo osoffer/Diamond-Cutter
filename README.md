@@ -35,6 +35,7 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
 <br>&nbsp;&nbsp;&nbsp;- View accuracy values for each layer
 <br>
+<br>
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
 <br>&nbsp;&nbsp;&nbsp;\- Pick a layer of your transferred model
@@ -51,7 +52,7 @@ This way you can examine if the channel focuses on a correct pattern by image ar
 <br>
 <br>
 <b>To do list:</b>
-<br>Inventory
+<br><br>Inventory
 <br>- Download all the prepared (frozen) models for transfer learning
 <br>- Convert models to .modelzoo format
 <br>- Upload mozelzoo files to google drive
