@@ -46,7 +46,7 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern</b>
 <br><b>3. View a generated visualization of the top activated channels per area in image</b>
-View a visualization of your data's top activated channels for each area of the image.
+<br>View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
