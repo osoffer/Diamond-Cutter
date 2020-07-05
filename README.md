@@ -31,8 +31,8 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nasnet_large layer “n-1”
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>inception_v4: layer “n” (last before softmax)</i>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>nasnet_large layer “n-1”</i>
 <br>&nbsp;&nbsp;&nbsp;- Choose parameters for the training process
 <br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
 <br>&nbsp;&nbsp;&nbsp;- View accuracy values for each layer
