@@ -53,8 +53,9 @@ This way you can examine if the channel focuses on a correct pattern by image ar
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
 <br>
+<br>
 <b>To do list:</b>
-<br><br>Inventory
+<br>Inventory
 <br>- Download all the prepared (frozen) models for transfer learning
 <br>- Convert models to .modelzoo format
 <br>- Upload mozelzoo files to google drive
