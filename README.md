@@ -28,7 +28,7 @@ Diamond Cutter is based on the Lucid Framework https://github.com/tensorflow/luc
 <br>- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
 <br>For example:
-<br>   inception_v4: layer “n” (last before softmax), 
+<br>&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax), 
 <br>   nasnet_large layer “n-1”.
 <br>- Choose parameters for the training process
 <br>- Run training for new output layer/s
