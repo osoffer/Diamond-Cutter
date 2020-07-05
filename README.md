@@ -22,6 +22,8 @@ Diamond Cutter is based on the following tools & research:
 <br><b>Exploring Neural Networks with Activation Atlases</b> - https://distill.pub/2019/activation-atlas/ </i>
 
 <br>
+<br>
+<br>
 <br>Diamond Cutter includes the following features:
 <br><b>Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>1. Which Model & Layer will Classify My Data With The Highest Accuracy?</b>
