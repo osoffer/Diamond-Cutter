@@ -4,11 +4,12 @@ The tool visualizes the top channel activations for transferred models that were
 <br>Diamond Cutter allows a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data. 
 <br>It features all mainstream models used for transfer learning.
 
+<i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
+
 Diamond Cutter includes 2 visualization tools:
 <br><b>Semantic Map</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br><b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
 
-<i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 <br>
 <br>
 Diamond Cutter is based on the Lucid Framework https://github.com/tensorflow/lucid,<br>and the following research efforts:
@@ -32,48 +33,48 @@ The Diamond Cutter produces the following tasks & insights:
 <br>- Run training for new output layer/s
 <br>- View accuracy values for each layer
 
-2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.
-
+<b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 This way you can examine if your data activates channels with relevant patterns.
-- Pick a layer of your transferred model
-   - If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-   - If the picked layer is the new output layer, visualizations need to be generated from scratch
+\- Pick a layer of your transferred model
+   \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+   \- If the picked layer is the new output layer, visualizations need to be generated from scratch
 
-Making sure the model (& layer) focuses on a correct object & pattern
-3. View a generated visualization of the top activated channels per area in image
+<b>Making sure the model (& layer) focuses on a correct object & pattern</b>
+<b>3. View a generated visualization of the top activated channels per area in image</b>
 View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
-- Pick a layer of your transferred model
-   - If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-   - If the picked layer is the new output layer, visualizations need to be generated from scratch
-
-To do list:
+\- Pick a layer of your transferred model
+   \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+   \- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<b>
+<b>
+<b>To do list:</b>
 Inventory
-- Download all the prepared (frozen) models for transfer learning
-- Convert models to .modelzoo format
-- Upload mozelzoo files to google drive
-- Map all relevant layers per model
+\- Download all the prepared (frozen) models for transfer learning
+\- Convert models to .modelzoo format
+\- Upload mozelzoo files to google drive
+\- Map all relevant layers per model
 
 Model Training
-- Add a general flow for adding a new output layer to a certain layer for a certain model
-- Allow persistency, saving new trained models & results to the user’s google drive
-- Build a flow for visualization map assembly from generated visualizations
-- Generate visualizations for top activated channels for trained model
-- Connect visualization maps to Channel Attribution & Semantic Map tools
+\- Add a general flow for adding a new output layer to a certain layer for a certain model
+\- Allow persistency, saving new trained models & results to the user’s google drive
+\- Build a flow for visualization map assembly from generated visualizations
+\- Generate visualizations for top activated channels for trained model
+\- Connect visualization maps to Channel Attribution & Semantic Map tools
 
 User interaction
-- Add simple way for the user to view all available models
-- Add simple way for the user to choose specific model/s & layer/s to train
-- Add simple way for the user to upload data / download from external source
-- Add a simple way for the user to map it’s google drive to the notebook for persistency
-- Add simple way for the user to pick visualizations for layers
+\- Add simple way for the user to view all available models
+\- Add simple way for the user to choose specific model/s & layer/s to train
+\- Add simple way for the user to upload data / download from external source
+\- Add a simple way for the user to map it’s google drive to the notebook for persistency
+\- Add simple way for the user to pick visualizations for layers
 
 Visualization – Channel Attribution
-- Prepare a general visualization flow for a frozen model
-   - Generate all visualizations for prepared models (across all layers and channels)
-- Add an option to use visualization flow for a trained model
+\- Prepare a general visualization flow for a frozen model
+   \- Generate all visualizations for prepared models (across all layers and channels)
+\- Add an option to use visualization flow for a trained model
 
 Visualization – Semantic Map
 * based on: _________________
-- Prepare a general visualization flow for a frozen model
-- Add an option to use visualization flow for a trained model
+\- Prepare a general visualization flow for a frozen model
+\- Add an option to use visualization flow for a trained model
