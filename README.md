@@ -12,7 +12,8 @@ Diamond Cutter includes 2 visualization tools:
 
 <br>
 <br>
-Diamond Cutter is based on the Lucid Framework https://github.com/tensorflow/lucid,<br>and the following research efforts:
+Diamond Cutter is based on the following tools & research: 
+<br><b>Lucid Framework</b> https://github.com/tensorflow/lucid
 <br><b>Feature Visualization</b> - How neural networks build up their understanding of images, https://distill.pub/2017/feature-visualization/
 <br><b>The Building Blocks of Interpretability</b> - https://distill.pub/2018/building-blocks/
 <br>Related work, not included in this project:
@@ -27,9 +28,9 @@ Diamond Cutter is based on the Lucid Framework https://github.com/tensorflow/luc
 <br>- Upload your data
 <br>- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
-<br>For example:
-<br>&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax), 
-<br>   nasnet_large layer “n-1”.
+<br>&nbsp;&nbsp;&nbsp;For example:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax), 
+<br>&nbsp;&nbsp;&nbsp;nasnet_large layer “n-1”.
 <br>- Choose parameters for the training process
 <br>- Run training for new output layer/s
 <br>- View accuracy values for each layer
