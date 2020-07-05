@@ -25,29 +25,29 @@ Diamond Cutter is based on the following tools & research:
 <br>The Diamond Cutter produces the following tasks & insights:
 <br><b>Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>1. Which Model & Layer will Classify My Data With The Highest Accuracy?</b>
-<br>- Upload your data
-<br>- Choose model/s from the list (inception_v4, nasnet_large, etc.)
-<br>- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
+<br>&nbsp;&nbsp;&nbsp;- Upload your data
+<br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
+<br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
 <br>&nbsp;&nbsp;&nbsp;For example:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax), 
-<br>&nbsp;&nbsp;&nbsp;nasnet_large layer “n-1”.
-<br>- Choose parameters for the training process
-<br>- Run training for new output layer/s
-<br>- View accuracy values for each layer
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inception_v4: layer “n” (last before softmax)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nasnet_large layer “n-1”
+<br>&nbsp;&nbsp;&nbsp;- Choose parameters for the training process
+<br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
+<br>&nbsp;&nbsp;&nbsp;- View accuracy values for each layer
 <br>
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
-<br>\- Pick a layer of your transferred model
-<br>   \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-<br>   \- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;\- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
-<b>Making sure the model (& layer) focuses on a correct object & pattern</b>
-<b>3. View a generated visualization of the top activated channels per area in image</b>
+<br><b>Making sure the model (& layer) focuses on a correct object & pattern</b>
+<br><b>3. View a generated visualization of the top activated channels per area in image</b>
 View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
-\- Pick a layer of your transferred model
-   \- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-   \- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;\- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
 <br>
 <b>To do list:</b>
