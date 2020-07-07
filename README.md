@@ -13,7 +13,7 @@ Diamond Cutter includes 2 visualization tools:
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia.png">
-
+<br>
 <br>
 <br>
 Diamond Cutter is based on the following tools & research: 
