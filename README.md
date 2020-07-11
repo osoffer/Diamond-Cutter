@@ -3,7 +3,7 @@
 The tool visualizes the top channel activations for transferred models that were trained to classify new data. 
 <br>Diamond Cutter allows a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data. 
 <br>It will feature all mainstream CNN models used for transfer learning.
-This project combines & alters existing projects in the fields explainability & interpretability, for these specific purpose.
+<br>The project combines & alters existing projects in the fields explainability & interpretability, for these specific purpose.
 
 <i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 
