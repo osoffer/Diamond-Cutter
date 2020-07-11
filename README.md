@@ -1,4 +1,5 @@
-<big><b>Diamond Cutter</b></big> is a tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
+# Diamond Cutter 
+A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
 
 The tool visualizes the top channel activations for transferred models that were trained to classify new data. 
 <br>Diamond Cutter allows a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data. 
@@ -7,7 +8,7 @@ The tool visualizes the top channel activations for transferred models that were
 
 <i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 
-Diamond Cutter includes 2 existing visualization tools (credits below):
+## Visualization tools
 <br>
 <br><b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
 <br>
@@ -21,6 +22,7 @@ Diamond Cutter includes 2 existing visualization tools (credits below):
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
 <br>
 <br>
+## Credit
 Diamond Cutter is based on the following tools & research: 
 <br><b>Lucid Framework</b> https://github.com/tensorflow/lucid
 <br><b>Feature Visualization</b> - How neural networks build up their understanding of images, https://distill.pub/2017/feature-visualization/
@@ -33,7 +35,7 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <br>
 <br>
-<br>Diamond Cutter includes the following features:
+## Features
 <br><b>Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>1. Which Model & Layer will Classify My Data With The Highest Accuracy?</b>
 <br>&nbsp;&nbsp;&nbsp;- Upload your data
