@@ -1,22 +1,24 @@
-<big><b>Diamond Cutter</b></big> is a tool that uses the power of explainability and Interpretability, for the process of choosing a CNN model for transfer learning.
+<big><b>Diamond Cutter</b></big> is a tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
 
-The tool visualizes the top channel activations for transferred models that were trained to classify your data. 
+The tool visualizes the top channel activations for transferred models that were trained to classify new data. 
 <br>Diamond Cutter allows a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data. 
-<br>It features all mainstream models used for transfer learning.
+<br>It will feature all mainstream CNN models used for transfer learning.
+This project combines & alters existing projects in the fields explainability & interpretability, for these specific purpose.
 
 <i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 
-Diamond Cutter includes 2 visualization tools:
+Diamond Cutter includes 2 existing visualization tools (credits below):
+<br>
 <br><b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia6.png">
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia6.png" width=800px>
 <br>
 <br>
 <br><b>Semantic Map</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png">
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
 <br>
 <br>
 Diamond Cutter is based on the following tools & research: 
