@@ -33,8 +33,10 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <br>
 ## Features
-<b>Choosing the right model (& right layer) for Transfer Learning</b>
-<br><b>1. Which Model & Layer will Classify My Data With The Highest Accuracy?</b>
+<b>(FUTURE) Choosing the right model (& right layer) for Transfer Learning</b>
+<br><b>1. Which model & layer classifies my data the best?</b>
+<br>Note: This feature is not yet completed, you can only choose specific model & layer combinations, and classify to existing imagenet classes.
+          Availabele models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Upload your data
 <br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
@@ -43,11 +45,13 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>nasnet_large layer “n-1”</i>
 <br>&nbsp;&nbsp;&nbsp;- Choose parameters for the training process
 <br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
-<br>&nbsp;&nbsp;&nbsp;- View accuracy values for each layer
+<br>&nbsp;&nbsp;&nbsp;- View & compare classifications for each model-layer combo
 <br>
 <br>
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
+<br>Note: This feature is not yet completed, you can only visualize channels from original "frozen" models.
+          Availabele models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
@@ -56,11 +60,16 @@ Diamond Cutter is based on the following tools & research:
 <br><b>3. View a generated visualization of the top activated channels per area in image</b>
 <br>View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
+Negative example: focusing on a reflection coming from a product's label instead of label's content.
+<br>Note: This feature is not yet completed, you can only visualize channels from original "frozen" models.
+          Availabele models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
-<br>
+<br>4. View a heatmap of channel activations for your specified class.
+This way you can examine if the model focuses on the correct area in your image for its classification.
+Negative example: focusing on dog food when predicting "dog".
 <br>
 <b>To do list:</b>
 <br>Inventory
