@@ -9,7 +9,6 @@ The tool visualizes the top channel activations for transferred models that were
 <i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 
 ## Visualization tools
-<br>
 <br><b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
 <br>
 <br>
