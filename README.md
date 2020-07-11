@@ -30,9 +30,6 @@ Diamond Cutter is based on the following tools & research:
 <br><i>Related work, not included in this project:
 <br><b>Zoom In: An Introduction to Circuits</b> - https://distill.pub/2020/circuits/zoom-in/
 <br><b>Exploring Neural Networks with Activation Atlases</b> - https://distill.pub/2019/activation-atlas/ </i>
-
-<br>
-<br>
 <br>
 ## Features
 <br><b>Choosing the right model (& right layer) for Transfer Learning</b>
