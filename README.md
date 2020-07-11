@@ -31,8 +31,9 @@ Diamond Cutter is based on the following tools & research:
 <br><b>Zoom In: An Introduction to Circuits</b> - https://distill.pub/2020/circuits/zoom-in/
 <br><b>Exploring Neural Networks with Activation Atlases</b> - https://distill.pub/2019/activation-atlas/ </i>
 <br>
+<br>
 ## Features
-<br><b>Choosing the right model (& right layer) for Transfer Learning</b>
+<b>Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>1. Which Model & Layer will Classify My Data With The Highest Accuracy?</b>
 <br>&nbsp;&nbsp;&nbsp;- Upload your data
 <br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
