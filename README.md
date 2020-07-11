@@ -36,7 +36,7 @@ Diamond Cutter is based on the following tools & research:
 <b>(FUTURE) Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>1. Which model & layer classifies my data the best?</b>
 <br>Note: This feature is not yet completed, you can only choose specific model & layer combinations, and classify to existing imagenet classes.
-          Availabele models: inception_v1, inception_v4.
+          Available models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Upload your data
 <br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
@@ -51,7 +51,7 @@ Diamond Cutter is based on the following tools & research:
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
 <br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
-          Availabele models: inception_v1, inception_v4.
+          Available models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
@@ -62,7 +62,7 @@ Diamond Cutter is based on the following tools & research:
 This way you can examine if the channel focuses on a correct pattern by image area.
 Negative example: focusing on a reflection coming from a product's label instead of label's content.
 <br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
-          Availabele models: inception_v1, inception_v4.
+          Available models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
