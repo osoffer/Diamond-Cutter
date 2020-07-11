@@ -12,7 +12,10 @@ Diamond Cutter includes 2 visualization tools:
 <br>
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia.png">
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia4.png">
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png">
 <br>
 <br>
 <br>
