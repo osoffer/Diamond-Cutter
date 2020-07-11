@@ -50,7 +50,7 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <b>2. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
 <br>This way you can examine if your data activates channels with relevant patterns.
-<br>Note: This feature is not yet completed, you can only visualize channels from original "frozen" models.
+<br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
           Availabele models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
@@ -61,15 +61,17 @@ Diamond Cutter is based on the following tools & research:
 <br>View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
 Negative example: focusing on a reflection coming from a product's label instead of label's content.
-<br>Note: This feature is not yet completed, you can only visualize channels from original "frozen" models.
+<br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
           Availabele models: inception_v1, inception_v4.
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
 <br>4. View a heatmap of channel activations for your specified class.
-This way you can examine if the model focuses on the correct area in your image for its classification.
+<br>This way you can examine if the model focuses on the correct area in your image for its classification.
 Negative example: focusing on dog food when predicting "dog".
+<br>
+<br>
 <br>
 <b>To do list:</b>
 <br>Inventory
