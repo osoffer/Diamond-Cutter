@@ -7,16 +7,16 @@ The tool visualizes the top channel activations for transferred models that were
 <i>\* The project is not yet completed, view it’s progress at the bottom of the page.</i>
 
 Diamond Cutter includes 2 visualization tools:
-<br><b>Semantic Map</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br><b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
-<br>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia6.png">
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png">
+<br><b>Semantic Map</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br>
+<br>
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png">
 <br>
 <br>
 Diamond Cutter is based on the following tools & research: 
