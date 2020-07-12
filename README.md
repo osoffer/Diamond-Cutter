@@ -25,13 +25,13 @@ Notes:
 <br>
 ## Acknowledgments
 Diamond Cutter is based on the following tools & research: 
-<br><b>Lucid Framework</b> - https://github.com/tensorflow/lucid
-<br><b>Feature Visualization</b> - How neural networks build up their understanding of images, - https://distill.pub/2017/feature-visualization/
-<br><b>The Building Blocks of Interpretability</b> - https://distill.pub/2018/building-blocks/
+<br><b>Lucid Framework</b> https://github.com/tensorflow/lucid
+<br><b>Feature Visualization</b> https://distill.pub/2017/feature-visualization/
+<br><b>The Building Blocks of Interpretability</b> https://distill.pub/2018/building-blocks/
 <br>
 <br><i>Related work, not included in this project:
-<br><b>Zoom In: An Introduction to Circuits</b> - https://distill.pub/2020/circuits/zoom-in/
-<br><b>Exploring Neural Networks with Activation Atlases</b> - https://distill.pub/2019/activation-atlas/ </i>
+<br><b>Zoom In: An Introduction to Circuits</b> https://distill.pub/2020/circuits/zoom-in/
+<br><b>Exploring Neural Networks with Activation Atlases</b> https://distill.pub/2019/activation-atlas/ </i>
 <br>
 <br>
 ## Features
