@@ -7,8 +7,8 @@ The tool visualizes the top channel activations for state-of-the-art CNN models 
 <br>The project combines & alters existing projects in the fields explainability & interpretability, for these specific purpose.
 
 Notes:
-<i>\* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
-<i>\* Project's code is a mesh of code from multiple projects.</i>
+<br><i>\* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
+<br><i>\* Project's code is a mesh of code from multiple projects.</i>
 
 ## Visualization tools
 <b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
