@@ -35,8 +35,8 @@ Diamond Cutter is based on the following tools & research:
 <br>
 <br>
 ## Features
-<b>1. View a generated visualization (so cool!) of the top activated channels in one of the new networks you’ve built in stage 1.</b>
-<br>This way you can examine if your data activates channels with relevant patterns.
+<b>1. View a visualization (so cool!) of top activated channels in a CNN models for transfer learning (and modified networks in the future) with your data.
+<br>This way you're able to examine if your data activates channels with relevant patterns.
 <br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
           <br><i>Available models: inception_v1, inception_v4.</i>
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
