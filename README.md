@@ -11,7 +11,7 @@ Notes:
 <br><i>\* Project's code is a mesh of code from multiple projects.</i>
 
 ## Visualization tools
-<b>Channel Attribution</b> – shows what are the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
+<b>Channel Attribution</b> – shows visualizations of the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia6.png" width=800px>
