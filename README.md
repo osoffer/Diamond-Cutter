@@ -44,7 +44,7 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern, in the right area.</b>
-<br><b>2. View a generated visualization of the top activated channels per area in image</b>
+<br><b>2. View a visualization of the top activated channels per area in image</b>
 <br>View a visualization of your data's top activated channels for each area of the image.
 This way you can examine if the channel focuses on a correct pattern by image area.
 <br>Negative example: focusing on a reflection coming from a product's label instead of label's content.
