@@ -39,9 +39,9 @@ Diamond Cutter is based on the following tools & research:
 <br>This way you're able to examine if your data activates channels with relevant patterns.
 <br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
-<br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;- Pick a layer of a model for transfer learning
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern</b>
 <br><b>2. View a generated visualization of the top activated channels per area in image</b>
