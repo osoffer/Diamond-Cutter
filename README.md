@@ -101,13 +101,13 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>- Allow persistency, saving new trained models & results to the user’s google drive
 <br>
 <br><b>User Interface</b> 
-<br>- Add simple way for the user to view all available models
-<br>- Add simple way for the user to view all layers in model
+<br>- ✔️ Add simple way for the user to view all available models
+<br>- ✔️ Add simple way for the user to view all layers in model
+<br>- ✔️ Notify user about expected image size for each model
 <br>- Add simple way for the user to attach new output / convolution layers to a “frozen” model, “cutting at a certain layer
 <br>- Add a plot comparing model prediction rates
 <br>- Add simple way for the user to upload data / download from external source
 <br>- Add a simple way for the user to map it’s google drive to the notebook for persistency
-<br>- Notify user about expected image size for each model
 
 <br><b>Visualization – Channel Attribution</b>
 <br>- ✔️ Generalize tool’s flow for compatibility compatibility to all models
