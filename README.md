@@ -23,8 +23,8 @@ The tool visualizes the top channel activations for transferred models that were
 <br>
 ## Credit
 Diamond Cutter is based on the following tools & research: 
-<br><b>Lucid Framework</b> https://github.com/tensorflow/lucid
-<br><b>Feature Visualization</b> - How neural networks build up their understanding of images, https://distill.pub/2017/feature-visualization/
+<br><b>Lucid Framework</b> - https://github.com/tensorflow/lucid
+<br><b>Feature Visualization</b> - How neural networks build up their understanding of images, - https://distill.pub/2017/feature-visualization/
 <br><b>The Building Blocks of Interpretability</b> - https://distill.pub/2018/building-blocks/
 <br>
 <br><i>Related work, not included in this project:
