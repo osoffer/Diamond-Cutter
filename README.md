@@ -54,7 +54,7 @@ This way you can examine if the channel focuses on a correct pattern by image ar
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
 <br>
-<br>4. View a heatmap of channel activations for your specified class.
+<br>3. View a heatmap of channel activations for your specified class.
 <br>This way you can examine if the model focuses on the correct area in your image for its classification.
 <br>Negative example: focusing on dog food when predicting "dog".
 <br>
