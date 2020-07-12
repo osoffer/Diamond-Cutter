@@ -80,7 +80,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>
 <br>
 ## ✔️ To do list ✔️
-<br><b>Model Inventory</b>
+<b>Model Inventory</b>
 <br>- Test all prepared models from lucid’s inventory
 <br>&nbsp;&nbsp;&nbsp;- model list: ✔️ InceptionV1, InceptionV2, InceptionV3, ✔️ InceptionV4, NasnetLarge, NasnetMobile, PnasnetLarge, PnasnetMobile, VGG16, VGG19, ResnetV1_50, ResnetV1_101, ResnetV1_152, InceptionResnetV2, MobilenetV1_025, MobilenetV1_050, AlexNet
 <br>&nbsp;&nbsp;&nbsp;- if model doesn’t exist, convert model to modelzoo format & import to project
