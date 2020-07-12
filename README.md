@@ -1,7 +1,7 @@
 # Diamond Cutter 
 A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
 
-The tool visualizes the top channel activations for state-of-the-art CNN models. 
+The tool visualizes the top channel activations for state-of-the-art CNN models in different layouts. 
 <br>Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data. 
 <br>It will feature all mainstream CNN models used for transfer learning.
 <br>The project combines & alters existing projects in the fields explainability & interpretability, for these specific purpose.
