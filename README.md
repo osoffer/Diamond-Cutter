@@ -82,6 +82,9 @@ This way you can examine if the channel focuses on a correct pattern by image ar
 <br><b>Visualizations - General</b>
 <br>- ✔️ Generalize channel visualization generation flow for all “frozen” models (original tool includes visualization only for Inception V4)
 <br>- ✔️ Build a “spritemap” assembly script – the visualization tools extract layer’s channel visualizations from a large image that maps all of them, ordered by channel index
+<br>- Generate visualizations for each layer of each model. 
+<br>&nbsp;&nbsp;&nbsp;This takes a lot of time in Google colab terms. 
+<br>&nbsp;&nbsp;&nbsp;Inception V1 was a small network compared to Inception V4 and Nasnet Large for example (more layers per model, more channels per layer). 
 <br>- Channel visualizations are made by a process similar to adversarial networks, to prevent reaching to an adversarial “level”, various regularization techniques are used. Original regularization parameters worked well on Inception V1, for more models further parameter optimization is needed, visualizations look vague.
 <br>- Build channel visualization generation flow for new layers that are attached to the original “frozen” model layers
 <br>
