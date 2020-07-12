@@ -21,7 +21,7 @@ The tool visualizes the top channel activations for transferred models that were
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
 <br>
 <br>
-## Credit
+## Acknowledgments
 Diamond Cutter is based on the following tools & research: 
 <br><b>Lucid Framework</b> - https://github.com/tensorflow/lucid
 <br><b>Feature Visualization</b> - How neural networks build up their understanding of images, - https://distill.pub/2017/feature-visualization/
