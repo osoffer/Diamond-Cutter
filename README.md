@@ -39,16 +39,18 @@ Diamond Cutter is based on the following tools & research:
 <br>This way you're able to examine if your data activates channels with relevant patterns.
 <br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
-<br>&nbsp;&nbsp;&nbsp;- Pick a layer of a model for transfer learning
+<br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls
+<br>&nbsp;&nbsp;&nbsp;- Choose a layer of a model for transfer learning
+<br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
+<br>&nbsp;&nbsp;&nbsp;- The tool sums and sorts top activations used for precdiction
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern, in the right area.</b>
 <br><b>2. View a visualization of the top activated channels per area in image</b>
-<br>View a visualization of your data's top activated channels for each area of the image.
-This way you can examine if the channel focuses on a correct pattern by image area.
+This way you can examine if the channel focuses on relevant areas in the image, in correct patterns.
 <br>Negative example: focusing on a reflection coming from a product's label instead of label's content.
-<br><b>Note:</b> This feature is not yet completed, you can only visualize channels from original "frozen" models.
+<br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
 <br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
