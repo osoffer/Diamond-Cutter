@@ -73,32 +73,48 @@ Negative example: focusing on dog food when predicting "dog".
 <br>
 <br>
 <br>
-<b>To do list:</b>
-<br>Inventory
-<br>- Download all the prepared (frozen) models for transfer learning
-<br>- Convert models to .modelzoo format
-<br>- Upload mozelzoo files to google drive
-<br>- Map all relevant layers per model
+✔️<b> To do list </b>✔️
+<br>## Model Inventory
+<br>- Test all prepared models from lucid’s inventory
+<br>   - model list: ✔️ InceptionV1, InceptionV2, InceptionV3, ✔️ InceptionV4, NasnetLarge, NasnetMobile, PnasnetLarge, PnasnetMobile, VGG16, VGG19, ResnetV1_50, ResnetV1_101, ResnetV1_152, InceptionResnetV2, MobilenetV1_025, MobilenetV1_050, AlexNet
+<br>   - if model doesn’t exist, convert model to modelzoo format & import to project
+<br>- For each model, map the following artifacts: output layer name, output layer size, pre-output layer name, desired image shape, layer names coupled with square root of layer size (for “spritemap”), layer list - sorted by position in network (ascending)
 <br>
-<br>Model Training
-<br>- Add a general flow for adding a new output layer to a certain layer for a certain model
+<br>## Visualizations - General
+<br>- ✔️ Generalize channel visualization generation flow for all “frozen” models (original tool includes visualization only for Inception V4)
+<br>- ✔️ Build a “spritemap” assembly script – the visualization tools extract layer’s channel visualizations from a large image that maps all of them, ordered by channel index
+<br>- Channel visualizations are made by a process similar to adversarial networks, to prevent reaching to an adversarial “level”, various regularization techniques are used. Original regularization parameters worked well on Inception V1, for more models further parameter optimization is needed, visualizations look vague.
+<br>- Build channel visualization generation flow for new layers that are attached to the original “frozen” model layers
+<br>
+<br>## Model Training
+<br>- Add a general flow for attaching a new output / convolution layer to a certain layer for a certain model
+<br>- Build a comparison flow between for transferred model prediction values
 <br>- Allow persistency, saving new trained models & results to the user’s google drive
-<br>- Build a flow for visualization map assembly from generated visualizations
-<br>- Generate visualizations for top activated channels for trained model
-<br>- Connect visualization maps to Channel Attribution & Semantic Map tools
 <br>
-<br>User interaction
+<br>## User Interface 
 <br>- Add simple way for the user to view all available models
-<br>- Add simple way for the user to choose specific model/s & layer/s to train
+<br>- Add simple way for the user to view all layers in model
+<br>- Add simple way for the user to attach new output / convolution layers to a “frozen” model, “cutting at a certain layer
+<br>- Add a plot comparing model prediction rates
 <br>- Add simple way for the user to upload data / download from external source
 <br>- Add a simple way for the user to map it’s google drive to the notebook for persistency
-<br>- Add simple way for the user to pick visualizations for layers
+
+<br>## Visualization – Channel Attribution
+<br>- ✔️ Generalize tool’s flow for compatibility compatibility to all models
+<br>- ✔️ Original tool compares 2 classes as positive & negative:  build an option for only 1 class (without negative class)
+<br>- ✔️ Build an option to include multiple images, and get their overall top activated channels
+<br>- Build an option for an automatic pick for the channels of the class with the highest prediction value (positive class)
+<br>- Build an option for an automatic pick for the channels of the class with the second-highest prediction value (negative class)
+<br>- Generate all visualizations for prepared models (across all layers and channels)
+<br>- Add an option to use Channel Attribution visualization flow for a new layers added to transferred model
 <br>
-<br>Visualization – Channel Attribution
-<br>- Prepare a general visualization flow for a frozen model
-   <br>- Generate all visualizations for prepared models (across all layers and channels)
-<br>- Add an option to use visualization flow for a trained model
-<br>
-<br>Visualization – Semantic Map
-<br>- Prepare a general visualization flow for a frozen model
-<br>- Add an option to use visualization flow for a trained model
+<br>## Visualization – Semantic Map, Heatmap
+<br>- Combine Semantic Map & Heatmap to a single tool
+<br>- ✔️ Generalize Semantic Map & Heatmap visualization flows for all models
+<br>- ✔️ Heatmap: original tool presents heatmaps of 2 classes as positive & negative (orange, blue) 
+<br> - add an option for only 1 class (without a negative class)
+<br>   - Add an option for an automatic pick for the channels of the class with the highest prediction value (positive class)
+<br>   - Add an option for an automatic pick for the channels of the class with the second-highest prediction value (negative class)
+<br>- Add an option to use Semantic Map & Heatmap for a new output / convolutional layers added to “frozen” models
+<br>- Semantic Map: Build an option to present top channel activations for a specific class
+<br>   - Build an option for an automatic pick for the channels of the class with the highest prediction value
