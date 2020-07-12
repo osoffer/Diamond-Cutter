@@ -40,38 +40,43 @@ Diamond Cutter is based on the following tools & research:
 <br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
 <br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls
-<br>&nbsp;&nbsp;&nbsp;- Choose a layer of a model for transfer learning
+<br>&nbsp;&nbsp;&nbsp;- Choose a comination of a model and its specific layer
 <br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
 <br>&nbsp;&nbsp;&nbsp;- The tool sums and sorts top activations used for precdiction
+<br>&nbsp;&nbsp;&nbsp;- Visualization of top channel activations will be presented
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern, in the right area.</b>
 <br><b>2. View a visualization of the top activated channels per area in image</b>
-This way you can examine if the channel focuses on relevant areas in the image, in correct patterns.
+This way you can examine if the channel focuses on relevant areas in the image, and by the right patterns.
 <br>Negative example: focusing on a reflection coming from a product's label instead of label's content.
-<br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
+<br><b>Note:</b> work in progress, includes only channel visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
-<br>&nbsp;&nbsp;&nbsp;- Pick a layer of your transferred model
+<br>&nbsp;&nbsp;&nbsp;- Choose an image as your input          
+<br>&nbsp;&nbsp;&nbsp;- Choose a comination of a model and its specific layer
+<br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
+<br>&nbsp;&nbsp;&nbsp;- The tool splits the input image into cells, hover above each cell to see its top channel activations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the picked layer is the new output layer, visualizations need to be generated from scratch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br>3. View a heatmap of channel activations for your specified class.
-<br>This way you can examine if the model focuses on the correct area in your image for its classification.
+<br>This way you can examine if the model focuses on the correct area of your image for classification.
 <br>Negative example: focusing on dog food when predicting "dog".
 <br>
 <br><b>(FUTURE) Choosing the right model (& right layer) for Transfer Learning</b>
 <br><b>4. Which model & layer classifies my data the best?</b>
-<br><b>Note:</b> This feature is not yet completed, you can only choose specific model & layer combinations, and classify to existing imagenet classes.
-<br>&nbsp;&nbsp;&nbsp;- Upload your data
+<br><b>Note:</b> work in progress, not available in current version.
+<br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls, attributed to different classes
 <br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
 <br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>inception_v4: layer “n” (last before output)</i>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>nasnet_large layer “n-1”</i>
 <br>&nbsp;&nbsp;&nbsp;- Choose parameters for the training process
+<br>&nbsp;&nbsp;&nbsp;- Choose analysis method parameters
 <br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
-<br>&nbsp;&nbsp;&nbsp;- View & compare classifications for each model-layer combo
+<br>&nbsp;&nbsp;&nbsp;- View & compare classification results of chosen all model-layer combos with thier performance on imagenet
 <br>
 ✔️<b> To do list </b>✔️<br>
 <br><b>Model Inventory</b>
