@@ -97,6 +97,7 @@ This way you can examine if the channel focuses on a correct pattern by image ar
 <br>- Add a plot comparing model prediction rates
 <br>- Add simple way for the user to upload data / download from external source
 <br>- Add a simple way for the user to map it’s google drive to the notebook for persistency
+<br>- Notify user about expected image size for each model
 
 <br><b>Visualization – Channel Attribution</b>
 <br>- ✔️ Generalize tool’s flow for compatibility compatibility to all models
