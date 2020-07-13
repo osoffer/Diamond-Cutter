@@ -40,7 +40,7 @@ Diamond Cutter is based on the following tools & research:
 <br><b>Note:</b> work in progress, includes only channels visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
 <br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls
-<br>&nbsp;&nbsp;&nbsp;- Choose a comination of a model and its specific layer
+<br>&nbsp;&nbsp;&nbsp;- Choose a combination of a model and its specific layer
 <br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
 <br>&nbsp;&nbsp;&nbsp;- The tool sums and sorts top activations used for precdiction
 <br>&nbsp;&nbsp;&nbsp;- Visualization of top channel activations will be presented
