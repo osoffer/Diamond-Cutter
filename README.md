@@ -1,3 +1,5 @@
+[<img src="http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/)
+
 # Diamond Cutter 
 A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
 
