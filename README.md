@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_-_Visualizing_Model_Layer_Affinity_to_Your_Data_for_Transfer_Learning.ipynb)
+
 
 # Diamond Cutter 
 A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
