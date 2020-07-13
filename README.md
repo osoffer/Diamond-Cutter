@@ -53,8 +53,8 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>Negative example: focusing on a reflection coming from a product's label instead of label's content.
 <br><b>Note:</b> work in progress, includes only channel visualizations from original models, modified networks will be added.
           <br><i>Available models: inception_v1, inception_v4.</i>
-<br>&nbsp;&nbsp;&nbsp;- Choose an image as your input          
-<br>&nbsp;&nbsp;&nbsp;- Choose a comination of a model and its specific layer
+<br>&nbsp;&nbsp;&nbsp;- Choose an image as your input
+<br>&nbsp;&nbsp;&nbsp;- Choose a combination of a model and its specific layer
 <br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
 <br>&nbsp;&nbsp;&nbsp;- The tool splits the input image into cells, hover above each cell to see its top channel activations
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
@@ -82,7 +82,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 ## ✔️ To do list ✔️
 <b>Model Inventory</b>
 <br>- Test all prepared models from lucid’s inventory
-<br>&nbsp;&nbsp;&nbsp;- model list: ✔️ InceptionV1, InceptionV2, InceptionV3, ✔️ InceptionV4, NasnetLarge, NasnetMobile, PnasnetLarge, PnasnetMobile, VGG16, VGG19, ResnetV1_50, ResnetV1_101, ResnetV1_152, InceptionResnetV2, MobilenetV1_025, MobilenetV1_050, AlexNet
+<br>&nbsp;&nbsp;&nbsp;- model list: ✔️ InceptionV1, InceptionV2, InceptionV3, ✔️ InceptionV4, 🚧 NasnetLarge, NasnetMobile, PnasnetLarge, PnasnetMobile, VGG16, 🚧 VGG19, ResnetV1_50, ResnetV1_101, ResnetV1_152, InceptionResnetV2, MobilenetV1_025, MobilenetV1_050, AlexNet
 <br>&nbsp;&nbsp;&nbsp;- if model doesn’t exist, convert model to modelzoo format & import to project
 <br>- For each model, map the following artifacts: output layer name, output layer size, pre-output layer name, desired image shape, layer names coupled with square root of layer size (for “spritemap”), layer list - sorted by position in network (ascending)
 <br>
