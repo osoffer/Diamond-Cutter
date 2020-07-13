@@ -42,7 +42,7 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls
 <br>&nbsp;&nbsp;&nbsp;- Choose a combination of a model and its specific layer
 <br>&nbsp;&nbsp;&nbsp;- Choose a class for prediction
-<br>&nbsp;&nbsp;&nbsp;- The tool sums and sorts top activations used for precdiction
+<br>&nbsp;&nbsp;&nbsp;- The tool sums and sorts top activations used for prediction
 <br>&nbsp;&nbsp;&nbsp;- Visualization of top channel activations will be presented
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
@@ -110,7 +110,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>- Add a simple way for the user to map it’s google drive to the notebook for persistency
 
 <br><b>Visualization – Channel Attribution</b>
-<br>- ✔️ Generalize tool’s flow for compatibility compatibility to all models
+<br>- ✔️ Generalize tool’s flow for compatibility to all models
 <br>- ✔️ Original tool compares 2 classes as positive & negative:  build an option for only 1 class (without negative class)
 <br>- ✔️ Build an option to include multiple images, and get their overall top activated channels
 <br>- Build an option for an automatic pick for the channels of the class with the highest prediction value (positive class)
