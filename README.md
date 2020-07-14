@@ -2,8 +2,9 @@
 
 # Diamond Cutter 
 A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
-
 The tool visualizes the top channel activations for state-of-the-art CNN models, in different layouts. 
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
+
 <br>Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data and analyzing results by visualizations. 
 <br>It will feature all mainstream CNN models used for transfer learning.
 <br>The project combines & alters existing projects in the fields explainability & interpretability.
@@ -22,7 +23,6 @@ Notes:
 <br><b>Semantic Map, Heatmap</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map.gif" width=700px>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
 <br>
 <br>
