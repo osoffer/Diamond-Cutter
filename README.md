@@ -22,6 +22,7 @@ Notes:
 <br><b>Semantic Map, Heatmap</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying your data.
 <br>
 <br>
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map.gif" width=700px>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
 <br>
 <br>
