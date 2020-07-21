@@ -12,7 +12,6 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
 Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data and analyzing results by visualizations. 
 <br>It will feature all mainstream CNN models used for transfer learning.
-<br>The project combines & alters existing projects in the fields explainability & interpretability.
 
 Notes:
 <br><i>\* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
