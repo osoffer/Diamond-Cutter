@@ -2,9 +2,9 @@
 
 # Diamond Cutter 
 A set of explainability and interpretability tools for Convolutional Neural Networks.
-<br><br>Diamond Cutter gives the researcher and insider's look on the hidden layers of CNNs.
+<br><br>Diamond Cutter gives the researcher an insider's look on the hidden layers of CNNs.
 <br>It does so by visualizing and giving context to layer activation data, 
-<br>in different UI (visualizations, maps, plots) & activation layouts (channel, spatial, neuron groups).
+<br>in different activation layouts (channel, spatial, neuron groups) & UI layouts (visualizations, maps, plots).
 <br><br>Most of these tools were created by OpenAI researchers (see Acknowledgments),
 <br>the project's purpose is to apply those tools & research on "real world" problems.
 <br>One main application of it is to enrich the analysis of state-of-the-art CNN models.
