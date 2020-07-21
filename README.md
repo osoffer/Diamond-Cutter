@@ -1,8 +1,12 @@
 [<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_-_Visualizing_Model_Layer_Affinity_to_Your_Data_for_Transfer_Learning.ipynb)
 
 # Diamond Cutter 
-A tool that uses the power of explainability and interpretability, for the process of choosing a CNN model for transfer learning.
-The tool visualizes the top channel activations for state-of-the-art CNN models, in different layouts. 
+A set of explainability and interpretability tools for CNNs.
+Diamond Cutter gives the researcher and insider's look on neural network hidden layers.
+It does so by visualizing and giving context to layer activation data, 
+in different UI (visualizations, maps, plots) & activation layouts (channel, spatial, neuron groups).
+Most of these tools were created by OpenAI researchers (see Acknowledgments) - The project's purpose is to apply those tools & research on "real world" problems.
+One main application of it is to enhance the analysis of state-of-the-art CNN models.
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
 Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data and analyzing results by visualizations. 
