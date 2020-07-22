@@ -7,7 +7,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>in different activation layouts (channel, spatial, neuron groups) & UI layouts (visualizations, maps, plots).
 <br><br>Most of these tools were created by OpenAI researchers (see Acknowledgments),
 <br>the project's purpose is to apply those tools & research on "real world" problems.
-<br>One main application of it is to enrich the analysis of state-of-the-art CNN models.
+<br>One main application of it is to enrich the analysis of state-of-the-art CNN models, used for transfer learning.
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
 Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data and analyzing results by visualizations. 
