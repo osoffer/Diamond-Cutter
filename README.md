@@ -28,9 +28,9 @@ The project unifies existing tools, generalizes them to support more state-of-ar
 <br>* Feature OpenAI’s visualization diversity feature, to clear up visualization meanings.
 <br>* Feature OpenAI’s visualization neuron groups feature.
 <br>
-Notes:
-<br><i>\* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
-<br><i>\* Project's code is a mesh of code from multiple projects.</i>
+<br>Notes:
+<br><i>* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
+<br><i>* Project's code is a mesh of code from multiple projects.</i>
 
 ## Visualization tools
 <b>Channel Attribution</b> – shows visualizations of the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
