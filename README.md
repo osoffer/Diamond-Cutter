@@ -11,7 +11,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>and implements their use for CNN investigation (focused on Transfer Learning).
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
-<br>Next milestones are:
+Next milestones are:
 <br>* Support all state-of-the-art CNN models & generate visualizations for them  
 <br>* Feature analysis of any CNN model (more generalization, generate visualizations in real time)
 <br>* Where to “cut” networks for Transfer Learning – what layers should stay “frozen” and should we remove some the last layers completely?
