@@ -11,7 +11,6 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>and implements their use for CNN investigation (focused on Transfer Learning).
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
-<br>
 <br>Next milestones are:
 <br>* Support all state-of-the-art CNN models & generate visualizations for them  
 <br>* Feature analysis of any CNN model (more generalization, generate visualizations in real time)
@@ -30,6 +29,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>Notes:
 <br><i>* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
 <br><i>* Project's code is a mesh of code from multiple projects.</i>
+<br><i>* There's a pending problem with the clarity of visualizations generated from advanced layers in large models, inception v4 for instance.</i>
 
 ## Visualization tools
 <b>Channel Attribution</b> – shows visualizations of the top activated channels for specific image/s.<br>This tool allows a better understanding of what patterns & textures the model focuses on when classifying your data.
@@ -38,7 +38,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Channel%20Attribution%20-%20Dylia6.png" width=800px>
 <br>
 <br>
-<br><b>Semantic Map, Heatmap</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying data.
+<br><b>Attribution Map, Heatmap</b> – splits an image to spatial cells and shows top activated channels for each cell.<br>This tool allows a better understanding of what area of the image the model focuses on when classifying data.
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Activation Maps - Dylia.png" width=700px>
@@ -69,7 +69,7 @@ Diamond Cutter is based on the following tools & research:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
 <br><b>Making sure the model (& layer) focuses on a correct object & pattern, in the right area.</b>
-<br><b>2. View a visualization of the top activated channels per area in image</b>
+<br><b>2. View a visualization of the top activated channels, attributed to spatial location in image</b>
 This way you can examine if the channel focuses on relevant areas in the image, and by the right patterns.
 <br>Negative example: focusing on a reflection coming from a product's label instead of label's content.
 <br><b>Note:</b> work in progress, includes only channel visualizations from original models, modified networks will be added.
@@ -84,20 +84,6 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>3. View a heatmap of channel activations for your specified class.
 <br>This way you can examine if the model focuses on the correct area of your image for classification.
 <br>Negative example: focusing on dog food when predicting "dog".
-<br>
-<br><b>(FUTURE) Choosing the right model (& right layer) for Transfer Learning</b>
-<br><b>4. Which model & layer classifies my data the best?</b>
-<br><b>Note:</b> work in progress, not available in current version.
-<br>&nbsp;&nbsp;&nbsp;- List 1 or more image urls, attributed to different classes
-<br>&nbsp;&nbsp;&nbsp;- Choose model/s from the list (inception_v4, nasnet_large, etc.)
-<br>&nbsp;&nbsp;&nbsp;- Where to cut: choose specific layer/s from these model/s to add a new output layer to, trained by your data.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>inception_v4: layer “n” (last before output)</i>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>nasnet_large layer “n-1”</i>
-<br>&nbsp;&nbsp;&nbsp;- Choose parameters for the training process
-<br>&nbsp;&nbsp;&nbsp;- Choose analysis method parameters
-<br>&nbsp;&nbsp;&nbsp;- Run training for new output layer/s
-<br>&nbsp;&nbsp;&nbsp;- View & compare classification results of chosen all model-layer combos with thier performance on imagenet
 <br>
 <br>
 ## ✔️ To do list ✔️
@@ -130,7 +116,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>- Add simple way for the user to upload data / download from external source
 <br>- Add a simple way for the user to map it’s google drive to the notebook for persistency
 
-<br><b>Visualization – Channel Attribution</b>
+<br><b>Channel Visualizations</b>
 <br>- ✔️ Generalize tool’s flow for compatibility to all models
 <br>- ✔️ Original tool compares 2 classes as positive & negative:  build an option for only 1 class (without negative class)
 <br>- ✔️ Build an option to include multiple images, and get their overall top activated channels
@@ -139,7 +125,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>- Generate all visualizations for prepared models (across all layers and channels)
 <br>- Add an option to use Channel Attribution visualization flow for a new layers added to transferred model
 <br>
-<br><b>Visualization – Semantic Map, Heatmap</b>
+<br><b>Attribution – Semantic Map, Heatmap</b>
 <br>- Combine Semantic Map & Heatmap to a single tool
 <br>- ✔️ Generalize Semantic Map & Heatmap visualization flows for all models
 <br>- ✔️ Heatmap: original tool presents heatmaps of 2 classes as positive & negative (orange, blue) 
