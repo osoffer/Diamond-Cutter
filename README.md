@@ -10,9 +10,24 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>One main application of it is to enrich the analysis of state-of-the-art CNN models, used for transfer learning.
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
-Diamond Cutter will allow a bulk process of “cutting” multiple models, in multiple layer positions, and training them for the purpose of classifying new data and analyzing results by visualizations. 
-<br>It will feature all mainstream CNN models used for transfer learning.
-
+The project unifies existing tools, generalizes them to support more state-of-art CNN models, 
+<br>and implements their use for investigating networks for Transfer Learning.
+<br>
+<br>Next milestones are:
+<br>* Support all state-of-the-art CNN models & generate visualizations for them  
+<br>* Feature analysis of any CNN model (more generalization, generate visualizations in real time)
+<br>* Where to “cut” networks for Transfer Learning – what layers should stay “frozen” and should we remove some the last layers completely?
+<br>
+<br>Future thoughts – general:
+<br>* Ethical interpretability – show feature extraction flow by layer advancement (similar to ATTRIBUTION BY FACTORIZED GROUPS in 2018 article)
+<br>* Digital art – generate visualizations from a mix of different neurons 
+<br>* Integrating natural language to describe visualization content to make visualizations more clear.
+<br>
+<br>Future thoughts – specific tools:
+<br>* Find dataset examples that share high activation values in the same spatial position.
+<br>* Feature OpenAI’s visualization diversity feature, to clear up visualization meanings.
+<br>* Feature OpenAI’s visualization neuron groups feature.
+<br>
 Notes:
 <br><i>\* This tool is not yet completed, view it’s progress at the bottom of the page.</i>
 <br><i>\* Project's code is a mesh of code from multiple projects.</i>
