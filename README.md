@@ -7,11 +7,10 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>in different activation layouts (channel, spatial, neuron groups) & UI layouts (visualizations, maps, plots).
 <br><br>Most of these tools were created by OpenAI researchers (see Acknowledgments),
 <br>the project's purpose is to apply those tools & research on "real world" problems.
-<br>One main application of it is to enrich the analysis of state-of-the-art CNN models, used for transfer learning.
+<br>It unifies existing tools, generalizes them to support all CNN models (FUTURE), 
+<br>and implements their use for CNN investigation (focused on Transfer Learning).
 
 <img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
-The project unifies existing tools, generalizes them to support more state-of-art CNN models, 
-<br>and implements their use for investigating networks for Transfer Learning.
 <br>
 <br>Next milestones are:
 <br>* Support all state-of-the-art CNN models & generate visualizations for them  
