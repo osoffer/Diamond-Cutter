@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_-_Visualizing_Model_Layer_Affinity_to_Your_Data_for_Transfer_Learning.ipynb)
+[<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_Explainability_%26_interpretability_tools_for_Convolutional_Neural_Networks.ipynb)
 
 # Diamond Cutter 
 A set of explainability and interpretability tools for Convolutional Neural Networks.
