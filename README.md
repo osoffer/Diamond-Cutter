@@ -81,7 +81,7 @@ This way you can examine if the channel focuses on relevant areas in the image, 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the layer is in the “frozen” part of the transferred model, visualizations were already generated
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If the selected layer is a new convolution layer, visualizations will be generated.
 <br>
-<br>3. View a heatmap of channel activations for your specified class.
+<br><b>3. View a heatmap of channel activations for your specified class.</b>
 <br>This way you can examine if the model focuses on the correct area of your image for classification.
 <br>Negative example: focusing on dog food when predicting "dog".
 <br>
