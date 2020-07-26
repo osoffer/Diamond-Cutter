@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_Explainability_%26_interpretability_tools_for_Convolutional_Neural_Networks.ipynb)
+[<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_-_Explainability_%26_interpretability_tools_for_CNNs.ipynb)
 
 # 💎 Diamond Cutter
 A set of explainability and interpretability tools for Convolutional Neural Networks.
@@ -10,7 +10,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>It unifies existing tools, generalizes them to support all CNN models (FUTURE), 
 <br>and implements their use for CNN investigation (focused on Transfer Learning).
 
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px >
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
 Next milestones are:
 <br>* Support all state-of-the-art CNN models & generate visualizations for them  
 <br>* Feature analysis of any CNN model (more generalization, generate visualizations in real time)
