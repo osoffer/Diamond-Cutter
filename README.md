@@ -10,7 +10,7 @@ A set of explainability and interpretability tools for Convolutional Neural Netw
 <br>It unifies existing tools, generalizes them to support all CNN models (FUTURE), 
 <br>and implements their use for CNN investigation (focused on Transfer Learning).
 
-<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px>
+<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Semantic_map2.gif" width=700px >
 Next milestones are:
 <br>* Support all state-of-the-art CNN models & generate visualizations for them  
 <br>* Feature analysis of any CNN model (more generalization, generate visualizations in real time)
