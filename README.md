@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/osoffer/Diamond-Cutter/master/images/Google_Colab1.png" width=200px>](https://colab.research.google.com/github/osoffer/Diamond-Cutter/blob/master/Diamond_Cutter_Explainability_%26_interpretability_tools_for_Convolutional_Neural_Networks.ipynb)
 
-# Diamond Cutter 
+# 💎 Diamond Cutter
 A set of explainability and interpretability tools for Convolutional Neural Networks.
 <br><br>Diamond Cutter gives the researcher an insider's look on hidden layers of CNNs.
 <br>It does so by visualizing, mapping and giving context to layer activation data, 
